@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS HomeWork-1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="todo_item">
+  <p class="title">Завдання 1</p>
+
+  <ul id="categories">
+    <li class="item">
+      <h2>Animals</h2>
+      <ul>
+        <li>Cat</li>
+        <li>Hamster</li>
+        <li>Horse</li>
+        <li>Parrot</li>
+      </ul>
+    </li>
+    <li class="item">
+      <h2>Products</h2>
+      <ul>
+        <li>Bread</li>
+        <li>Prasley</li>
+        <li>Cheese</li>
+      </ul>
+    </li>
+    <li class="item">
+      <h2>Technologies</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 2</p>
+  <ul id="ingredients"></ul>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 3</p>
+  <ul class="gallery"></ul>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 4</p>
+
+  <div id="counter">
+    <button type="button" data-action="decrement">-1</button>
+    <span id="value"></span>
+    <button type="button" data-action="increment">+1</button>
+  </div>
+
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 5</p>
+
+  <input type="text" id="name-input" placeholder="Please enter your name" />
+  <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 6</p>
+
+  <input type="text" id="validation-input" data-length="6" placeholder="Please enter 6 symbols"/>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 7</p>
+
+  <input id="font-size-control" type="range" min="16" max="96" />
+      <br />
+  <span id="text">Abracadabra!</span>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 8</p>
+
+  <form class="login-form">
+    <label>
+      Email
+      <input type="email" name="email" />
+    </label>
+    <label>
+      Password
+      <input type="password" name="password" />
+    </label>
+    <button type="submit">Login</button>
+  </form>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 9</p>
+
+  <div class="widget">
+    <p>Background color: <span class="color">-</span></p>
+    <button onclick="getRandomHexColor()" type="button" class="change-color">Change color</button>
+  </div>
+</div>
+<div class="todo_item">
+  <p class="title">Завдання 10</p>
+
+  <div id="controls">
+    <input type="number" min="1" max="100" step="1" />
+    <button type="button" data-create>Create</button>
+    <button type="button" data-destroy>Destroy</button>
+  </div>
+  
+  <div id="boxes"></div>
+</div>
+
+
+  
+  
+  <script src="main.js"></script>
+</body>
+
+</html>

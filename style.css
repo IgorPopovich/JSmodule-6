@@ -1,0 +1,79 @@
+.gallery img {
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#counter button {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#counter button:first-child {
+    background-color: #66c569;
+    border: 2px solid #429645;
+}
+#counter button:first-child:hover {
+    background-color: #3fa142;
+}
+#counter button:last-child:hover {
+    background-color: #f04d41;
+} 
+#counter button:last-child {
+    background-color: #ee7b73;
+    border: 2px solid #b64038;
+} 
+
+#counter #value {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#counter {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+body {
+    padding: 10px;
+}
+
+#validation-input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+  
+#validation-input.valid {
+    border-color: #4caf50;
+}
+  
+#validation-input.invalid {
+    border-color: #f44336;
+}
+
+.box {
+    margin: 10px;
+    border-radius: 6%;
+}
+
+.todo_item {
+    margin: 20px;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #00173a6b;
+    border-radius: 10px;
+}
+.todo_item .title {
+    text-align: center;
+}
